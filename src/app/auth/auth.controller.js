@@ -1,4 +1,12 @@
-const { storeApp, removeUrl, updateApp } = require('./urls.model')
+const { storeApp, removeUrl, updateApp } = require('../core/urls.model')
+
+function all(req, res) {
+  return 'NIY'
+}
+
+function show(req, res) {
+  return 'NIY'
+}
 
 function store(req, res) {
   storeApp(req.body)
@@ -21,4 +29,4 @@ function update(req, res) {
   return res.send('app registry updated')
 }
 
-module.exports = { store, update, remove }
+module.exports = { all, show, store, update, remove }

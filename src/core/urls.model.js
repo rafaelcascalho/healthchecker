@@ -1,4 +1,4 @@
-const { saveState } = require('./services/persistence.service')
+const { saveState } = require('../services/persistence.service')
 
 /**
  * App { name: { url, wbehook, lastStatus, lastChecked } }
